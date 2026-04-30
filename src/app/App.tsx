@@ -416,9 +416,14 @@ export default function App() {
                   </ul>
                 </div>
 
-                <button className="w-full px-8 py-5 bg-[#c5a572] text-white rounded-xl hover:bg-[#b39563] transition-colors duration-200 text-lg">
+                <a
+                  href="https://budko-nalogi.ru/byx-oplata?utm_source=test"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full px-8 py-5 bg-[#c5a572] text-white rounded-xl hover:bg-[#b39563] transition-colors duration-200 text-lg text-center"
+                >
                   Хочу узнать, как повысить стоимость услуг
-                </button>
+                </a>
 
                 <p className="text-center text-sm text-gray-500 mt-6">
                   Зарегистрироваться на вебинар
